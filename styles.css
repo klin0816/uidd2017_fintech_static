@@ -108,7 +108,7 @@ section{
 }
 ul{
 	position: absolute;
-	left: 352px;
+	left: 34.4%;
 	list-style:none;
 	padding: 0px;
 	margin: 26px 0px;
@@ -123,12 +123,14 @@ ul li{
 	background-repeat: no-repeat;
 	position: relative;
 	top: 49px;
+	left: 41.5%;
     width: 194px;
 	height: 33px;
 }
 .All-Benefits {
 	position: relative;
 	top: 7px;
+	left: 23.2%;
 	width: 105px;
  	height: 26px;
  	font-family: Helvetica;
