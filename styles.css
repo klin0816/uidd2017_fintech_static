@@ -1,0 +1,356 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 150%;
+	background: #eee;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.banner{
+	background-image: url("Images/topbar_bg.png");
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 65px; 
+	color: white;
+	z-index: 1;
+	font-family: Helvetica;
+	font-size: 12px;
+}
+section{
+	height: 430px;
+}
+.BigTitle {
+	position: absolute;
+	right: 5%;
+	top: 140px;
+	width: 548px;
+	height: 50px;
+	opacity: 0.9;
+	font-family: Helvetica;
+	font-size: 48px;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.04;
+	letter-spacing: normal;
+	text-align: left;
+	color: #0070bd;
+	text-shadow: 0 2px 2px #ffffff;
+}
+.Subtitle {
+	position: absolute;
+	right: 5%;
+	top: 214px;
+	width: 250px;
+	height: 60px;
+	opacity: 0.9;
+	font-family: Helvetica;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	text-align: left;
+	color: #0d4061;
+}
+.section2{
+	height: 377px;
+	background-image: url("Images/fintech-london.png");
+	background-size: 100% 100%;
+	max-width: 100%;
+	min-height: 430px;
+}
+.grey{
+	background-image: url("Images/banner_1.png");
+	background-size: 100% 100%;
+	min-height: 430px;
+	z-index: 0;
+}
+.white{
+	background: white;
+	max-width: 100%;
+	height: 567px;
+}
+.leftContainer{
+	position: absolute;
+	top: 11px;
+	left: 65px;
+}
+.leftContainer2{
+	position: absolute;
+	width: 103px;
+  	height: 38px;
+	top: 18px;
+	left: 116px;
+}
+.Latest-News-Solution {
+	width: 613px;
+	height: 15px;
+
+	font-size: 12px; 
+	font-weight: 500; 
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal; 
+	letter-spacing: normal; 
+	text-align: left; 
+	color: #ffffff;
+}
+.Login{
+	position: absolute;
+	right: 59px;
+	top: 26px;
+}
+ul{
+	position: absolute;
+	left: 352px;
+	list-style:none;
+	padding: 0px;
+	margin: 26px 0px;
+}
+ul li{
+	display: inline; /* 水平排列 */
+	margin: 0px 10px;
+}
+
+.but{
+	background-image: url("Images/benefits_bg.png");
+	background-repeat: no-repeat;
+	position: relative;
+	top: 49px;
+    width: 194px;
+	height: 33px;
+}
+.All-Benefits {
+	position: relative;
+	top: 7px;
+	width: 105px;
+ 	height: 26px;
+ 	font-family: Helvetica;
+	font-size: 22px;
+	font-weight: 300;
+	color: #0D4061;
+}
+.TitleStyle{
+	position: relative;
+	top: 91px;
+	left: -11px;
+	height: 17px;
+	width: 100px;
+	font-family: Helvetica;
+	font-size: 14px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #0E304E;
+}
+.DescriptionStyle{
+	position: relative;
+	top: 105px;
+	left: -37px;
+	width: 153px;
+	height: 28px;
+	font-family: Helvetica;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	color: #636363;
+}
+
+.button1{
+	background-image: url("Images/save.png");
+	background-repeat: no-repeat;
+  	width: 80px;
+  	height: 80px;
+  	position: relative;
+  	left: 17.7%;
+  	top: 101px;
+}
+.button2{
+	background-image: url("Images/onthego.png");
+	background-repeat: no-repeat;
+  	width: 80px;
+  	height: 80px;
+  	position: relative;
+  	left: 46.1%;
+  	top: 23px;
+}
+.button3{
+	background-image: url("Images/secure.png");
+	background-repeat: no-repeat;
+  	width: 80px;
+  	height: 80px;
+  	position: relative;
+  	left: 74.5%;
+  	top: -63px;
+}
+.button4{
+	background-image: url("Images/digitalwallet.png");
+	background-repeat: no-repeat;
+  	width: 80px;
+  	height: 80px;
+  	position: relative;
+  	left: 17.7%;
+  	top: 63px;
+}
+.button5{
+	background-image: url("Images/online.png");
+	background-repeat: no-repeat;
+  	width: 80px;
+  	height: 80px;
+  	position: relative;
+  	left: 46.1%;
+  	top: -23px;
+}
+.button6{
+	background-image: url("Images/Rectangle.png");
+	background-repeat: no-repeat;
+  	width: 80px;
+  	height: 80px;
+  	position: relative;
+  	left: 74.5%;
+  	top: -103px;
+}
+a.back-to-top {
+	display: none;
+	width: 52px;
+	height: 54px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 33px;
+	bottom: 61px;
+	background-image: url("Images/top_n.png");
+}
+a:hover.back-to-top {
+	background-image: url("Images/top_p.png");
+}
+
+.subscribe{
+	position: relative;
+	top: 98px;
+}
+
+input[type=text], select{
+    width: 348px;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-size: 14px;
+	line-height: 1.43;
+	letter-spacing: normal;
+	text-align: left;
+	color: rgba(0, 0, 0, 0.38);
+}
+
+input[type=submit] {
+    width: 348px;
+    background-image: url("Images/button_f.png");
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-image: url("Images/button_n.png");
+
+}
+.Subscribe-to-Our-New {
+	position: relative;
+	top: 48px;
+	width: 269px;
+	height: 24px;
+	font-family: Helvetica;
+	font-size: 20px;
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: white;
+}
+
+.footerContainer{
+	background: #0070bd;
+	height: 265px;
+	width: 100%;
+	color: white;
+}
+
+.footerText{
+	font-family: Helvetica;
+	font-size: 12px;
+	line-height: 280%;
+	letter-spacing: normal;
+	color: white;
+}
+
+.footerText1 {
+	font-size: 14px;
+	font-weight: bold;
+	width: 100%;
+}
+
+.footer1{
+	height: 0px;
+	width: 200px;
+	position: absolute;
+	top: 1463px;
+	left: 6.9%;
+}
+
+.footer2{
+	height: 0px;
+	position: absolute;
+	top: 1463px;
+	left: 27.4%;
+}
+
+.footer3{
+	height: 0px;
+	position: absolute;
+	top: 1463px;
+	left: 50%;
+}
+.FB {
+	position: relative;
+	top: 40px;
+	left: 69%;
+	background-image: url("Images/FB.png");
+	width: 36px;
+	height: 36px;
+}
+.google{
+	position: relative;
+	top: 4px;
+	left: 75%;
+	background-image: url("Images/G.png");
+	width: 36px;
+	height: 36px;
+}
+.twitter{
+	position: relative;
+	top: -32px;
+	left: 81%;
+	background-image: url("Images/twitter.png");
+	width: 36px;
+	height: 36px;
+}
